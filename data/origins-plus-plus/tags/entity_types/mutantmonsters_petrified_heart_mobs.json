@@ -1,0 +1,14 @@
+{"values":[
+    {
+        "id": "mutantmonsters:mutant_enderman",
+        "required": false
+    },
+    {
+        "id": "mutantmonsters:mutant_skeleton",
+        "required": false
+    },
+    {
+        "id": "mutantmonsters:mutant_snow_golem",
+        "required": false
+    }
+]}

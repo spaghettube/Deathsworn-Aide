@@ -1,0 +1,66 @@
+{"values":[
+    {
+        "id": "minecraft:cave_spider",
+        "required": false
+    },
+    {
+        "id": "minecraft:creeper",
+        "required": false
+    },
+    {
+        "id": "minecraft:drowned",
+        "required": false
+    },
+    {
+        "id": "minecraft:evoker",
+        "required": false
+    },
+    {
+        "id": "minecraft:ghast",
+        "required": false
+    },
+    {
+        "id": "minecraft:husk",
+        "required": false
+    },
+    {
+        "id": "minecraft:illusioner",
+        "required": false
+    },
+    {
+        "id": "minecraft:magma_cube",
+        "required": false
+    },
+    {
+        "id": "minecraft:piglin_brute",
+        "required": false
+    },
+    {
+        "id": "minecraft:pillager",
+        "required": false
+    },
+    {
+        "id": "#minecraft:skeletons",
+        "required": false
+    },
+    {
+        "id": "minecraft:spider",
+        "required": false
+    },
+    {
+        "id": "minecraft:vindicator",
+        "required": false
+    },
+    {
+        "id": "minecraft:witch",
+        "required": false
+    },
+    {
+        "id": "minecraft:zombie",
+        "required": false
+    },
+    {
+        "id": "minecraft:zombified_piglin",
+        "required": false
+    }
+]}

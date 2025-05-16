@@ -1,0 +1,70 @@
+{"values":[
+    {
+        "id": "frycmobvariants:armored_spider",
+        "required": false
+    },
+    {
+        "id": "frycmobvariants:bloated_corpse",
+        "required": false
+    },
+    {
+        "id": "frycmobvariants:cave_creeper",
+        "required": false
+    },
+    {
+        "id": "frycmobvariants:corsair",
+        "required": false
+    },
+    {
+        "id": "frycmobvariants:executioner",
+        "required": false
+    },
+    {
+        "id": "frycmobvariants:explorer",
+        "required": false
+    },
+    {
+        "id": "frycmobvariants:forgotten",
+        "required": false
+    },
+    {
+        "id": "frycmobvariants:frozen_zombie",
+        "required": false
+    },
+    {
+        "id": "frycmobvariants:infected_piglin",
+        "required": false
+    },
+    {
+        "id": "frycmobvariants:infected_piglin_brute",
+        "required": false
+    },
+    {
+        "id": "frycmobvariants:lava_slime",
+        "required": false
+    },
+    {
+        "id": "frycmobvariants:nightmare",
+        "required": false
+    },
+    {
+        "id": "frycmobvariants:soul_stealer",
+        "required": false
+    },
+    {
+        "id": "frycmobvariants:toxic_slime",
+        "required": false
+    },
+    {
+        "id": "frycmobvariants:tropical_spider",
+        "required": false
+    },
+    {
+        "id": "frycmobvariants:undead_warrior",
+        "required": false
+    },
+    {
+        "id": "frycmobvariants:zombified_piglin_brute",
+        "required": false
+    }
+]}

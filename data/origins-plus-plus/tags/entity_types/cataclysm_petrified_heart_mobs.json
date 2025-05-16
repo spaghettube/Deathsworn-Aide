@@ -1,0 +1,74 @@
+{"values":[
+    {
+        "id": "cataclysm:the_baby_leviathan",
+        "required": false
+    },
+    {
+        "id": "cataclysm:deepling",
+        "required": false
+    },
+    {
+        "id": "cataclysm:deepling_brute",
+        "required": false
+    },
+    {
+        "id": "cataclysm:deepling_warlock",
+        "required": false
+    },
+    {
+        "id": "cataclysm:modern_remnant",
+        "required": false
+    },
+    {
+        "id": "cataclysm:ender_golem",
+        "required": false
+    },
+    {
+        "id": "cataclysm:endermaptera",
+        "required": false
+    },
+    {
+        "id": "cataclysm:deepling_priest",
+        "required": false
+    },
+    {
+        "id": "cataclysm:elite_draugr",
+        "required": false
+    },
+    {
+        "id": "cataclysm:royal_draugr",
+        "required": false
+    },
+    {
+        "id": "cataclysm:ignited_revenant",
+        "required": false
+    },
+    {
+        "id": "cataclysm:ignited_berserker",
+        "required": false
+    },
+    {
+        "id": "cataclysm:amethyst_crab",
+        "required": false
+    },
+    {
+        "id": "cataclysm:the_watcher",
+        "required": false
+    },
+    {
+        "id": "cataclysm:coral_golem",
+        "required": false
+    },
+    {
+        "id": "cataclysm:the_prowler",
+        "required": false
+    },
+    {
+        "id": "cataclysm:koboleton",
+        "required": false
+    },
+    {
+        "id": "cataclysm:draugr",
+        "required": false
+    }
+]}

@@ -1,0 +1,14 @@
+{"values":[
+    {
+        "id": "takesapillage:archer",
+        "required": false
+    },
+    {
+        "id": "takesapillage:legioner",
+        "required": false
+    },
+    {
+        "id": "takesapillage:skirmisher",
+        "required": false
+    }
+]}

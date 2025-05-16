@@ -1,0 +1,1 @@
+execute if entity @s[type=testmod:test] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Test"

@@ -1,0 +1,22 @@
+{"values":[
+    {
+        "id": "darkwaters:aberration",
+        "required": false
+    },
+    {
+        "id": "darkwaters:craeken",
+        "required": false
+    },
+    {
+        "id": "darkwaters:manaraw",
+        "required": false
+    },
+    {
+        "id": "darkwaters:miraid",
+        "required": false
+    },
+    {
+        "id": "darkwaters:sight_hunter",
+        "required": false
+    }
+]}

@@ -1,0 +1,54 @@
+{"values":[
+    {
+        "id": "rottencreatures:mummy",
+        "required": false
+    },
+    {
+        "id": "rottencreatures:undead_miner",
+        "required": false
+    },
+    {
+        "id": "rottencreatures:glacial_hunter",
+        "required": false
+    },
+    {
+        "id": "rottencreatures:dead_beard",
+        "required": false
+    },
+    {
+        "id": "rottencreatures:immortal",
+        "required": false
+    },
+    {
+        "id": "rottencreatures:burned",
+        "required": false
+    },
+    {
+        "id": "rottencreatures:zap",
+        "required": false
+    },
+    {
+        "id": "rottencreatures:frostbitten",
+        "required": false
+    },
+    {
+        "id": "rottencreatures:swampy",
+        "required": false
+    },
+    {
+        "id": "rottencreatures:zombie_lackey",
+        "required": false
+    },
+    {
+        "id": "rottencreatures:skeleton_lackey",
+        "required": false
+    },
+    {
+        "id": "rottencreatures:hunter_wolf",
+        "required": false
+    },
+    {
+        "id": "rottencreatures:scarab",
+        "required": false
+    }
+]}

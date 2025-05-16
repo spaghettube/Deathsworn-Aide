@@ -1,0 +1,42 @@
+{"values":[
+    {
+        "id": "soulsweapons:dark_sorcerer",
+        "required": false
+    },
+    {
+        "id": "soulsweapons:evil_forlorn",
+        "required": false
+    },
+    {
+        "id": "soulsweapons:forlorn",
+        "required": false
+    },
+    {
+        "id": "soulsweapons:frost_giant",
+        "required": false
+    },
+    {
+        "id": "soulsweapons:remnant",
+        "required": false
+    },
+    {
+        "id": "soulsweapons:rime_spectre",
+        "required": false
+    },
+    {
+        "id": "soulsweapons:soulmass",
+        "required": false
+    },
+    {
+        "id": "soulsweapons:withered_demon",
+        "required": false
+    },
+    {
+        "id": "soulsweapons:soul_reaper_ghost",
+        "required": false
+    },
+    {
+        "id": "soulsweapons:rime_spectre",
+        "required": false
+    }
+]}

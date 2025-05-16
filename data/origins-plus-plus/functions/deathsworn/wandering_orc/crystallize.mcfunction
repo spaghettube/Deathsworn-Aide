@@ -1,0 +1,6 @@
+execute if entity @s[type=wandering_orc:minotaur] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Minotaur"
+execute if entity @s[type=wandering_orc:orc_archer] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Orc archer"
+execute if entity @s[type=wandering_orc:orc_champion] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Orc champion"
+execute if entity @s[type=wandering_orc:orc_warlock] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Orc warlock"
+execute if entity @s[type=wandering_orc:orc_warrior] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Orc warrior"
+execute if entity @s[type=wandering_orc:troll] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Troll"

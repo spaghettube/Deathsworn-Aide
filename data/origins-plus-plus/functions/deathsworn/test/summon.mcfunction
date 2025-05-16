@@ -1,0 +1,1 @@
+execute if entity @s[nbt={SelectedItem:{tag:{mob:"Test"}}}] run summon testmod:test ^ ^ ^ {Team:"deathsworn",Tags:["Deathsworn_Minion"],Attributes:[{Name:"generic.max_health",Base:100},{Name:"generic.follow_range",Base:32},{Name:"generic.knockback_resistance",Base:1},{Name:"generic.attack_damage",Base:1},{Name:"generic.armor",Base:1}]}

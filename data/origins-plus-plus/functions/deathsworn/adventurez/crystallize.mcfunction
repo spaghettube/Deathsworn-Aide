@@ -1,0 +1,7 @@
+execute if entity @s[type=adventurez:amethyst_golem] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Amethyst golem"
+execute if entity @s[type=adventurez:blaze_guardian] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Blaze guardian"
+execute if entity @s[type=adventurez:enderwarthog] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Enderwarthog"
+execute if entity @s[type=adventurez:piglin_beast] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Piglin beast"
+execute if entity @s[type=adventurez:shaman] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Shaman"
+execute if entity @s[type=adventurez:skeleton_vanguard] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Skeleton vanguard"
+execute if entity @s[type=adventurez:soul_reaper] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Soul reaper"

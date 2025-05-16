@@ -1,0 +1,4 @@
+execute if entity @s[type=variantsandventures:gelid] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Gelid"
+execute if entity @s[type=variantsandventures:murk] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Murk"
+execute if entity @s[type=variantsandventures:thicket] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Thicket"
+execute if entity @s[type=variantsandventures:verdant] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Verdant"

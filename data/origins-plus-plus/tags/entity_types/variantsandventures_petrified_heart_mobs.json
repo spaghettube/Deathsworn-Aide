@@ -1,0 +1,18 @@
+{"values":[
+    {
+        "id": "variantsandventures:gelid",
+        "required": false
+    },
+    {
+        "id": "variantsandventures:murk",
+        "required": false
+    },
+    {
+        "id": "variantsandventures:thicket",
+        "required": false
+    },
+    {
+        "id": "variantsandventures:verdant",
+        "required": false
+    }
+]}

@@ -1,0 +1,5 @@
+execute if entity @s[type=enderzoology:concussion_creeper] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Concussion creeper"
+execute if entity @s[type=enderzoology:enderminy] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Enderminy"
+execute if entity @s[type=enderzoology:fallen_knight] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Fallen knight"
+execute if entity @s[type=enderzoology:infested_zombie] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Infested zombie"
+execute if entity @s[type=enderzoology:wither_witch] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Wither witch"

@@ -1,0 +1,22 @@
+{"values":[
+    {
+        "id": "enderzoology:concussion_creeper",
+        "required": false
+    },
+    {
+        "id": "enderzoology:enderminy",
+        "required": false
+    },
+    {
+        "id": "enderzoology:fallen_knight",
+        "required": false
+    },
+    {
+        "id": "enderzoology:infested_zombie",
+        "required": false
+    },
+    {
+        "id": "enderzoology:wither_witch",
+        "required": false
+    }
+]}

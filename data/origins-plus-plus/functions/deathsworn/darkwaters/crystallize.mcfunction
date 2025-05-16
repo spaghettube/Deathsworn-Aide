@@ -1,0 +1,5 @@
+execute if entity @s[type=darkwaters:aberration] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Aberration"
+execute if entity @s[type=darkwaters:craeken] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Craeken"
+execute if entity @s[type=darkwaters:manaraw] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Manaraw"
+execute if entity @s[type=darkwaters:miraid] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Miraid"
+execute if entity @s[type=darkwaters:sight_hunter] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Sight hunter"

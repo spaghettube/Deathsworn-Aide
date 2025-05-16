@@ -1,0 +1,26 @@
+{"values":[
+    {
+        "id": "wandering_orc:minotaur",
+        "required": false
+    },
+    {
+        "id": "wandering_orc:orc_archer",
+        "required": false
+    },
+    {
+        "id": "wandering_orc:orc_champion",
+        "required": false
+    },
+    {
+        "id": "wandering_orc:orc_warlock",
+        "required": false
+    },
+    {
+        "id": "wandering_orc:orc_warrior",
+        "required": false
+    },
+    {
+        "id": "wandering_orc:troll",
+        "required": false
+    }
+]}

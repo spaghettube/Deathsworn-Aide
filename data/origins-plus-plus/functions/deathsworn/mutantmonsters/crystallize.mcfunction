@@ -1,0 +1,3 @@
+execute if entity @s[type=mutantmonsters:mutant_enderman] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Mutant enderman"
+execute if entity @s[type=mutantmonsters:mutant_skeleton] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Mutant skeleton"
+execute if entity @s[type=mutantmonsters:mutant_snow_golem] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Mutant snow golem"

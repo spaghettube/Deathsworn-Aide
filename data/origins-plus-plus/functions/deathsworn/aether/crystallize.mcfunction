@@ -1,0 +1,6 @@
+execute if entity @s[type=aether:blue_swet] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Blue swet"
+execute if entity @s[type=aether:golden_swet] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Golden swet"
+execute if entity @s[type=aether:valkyrie] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Valkyrie"
+execute if entity @s[type=aether:zephyr] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Zephyr"
+execute if entity @s[type=aether:sentry] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Sentry"
+execute if entity @s[type=aether:fire_minion] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Fire Minion"

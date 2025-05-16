@@ -1,0 +1,3 @@
+execute if entity @s[type=takesapillage:archer] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Archer"
+execute if entity @s[type=takesapillage:legioner] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Legioner"
+execute if entity @s[type=takesapillage:skirmisher] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Skirmisher"

@@ -1,0 +1,80 @@
+{
+  "values": [
+    {
+        "id": "#origins-plus-plus:test_petrified_heart_mobs",
+        "required": false
+    },
+    {
+        "id": "#origins-plus-plus:adventurez_petrified_heart_mobs",
+        "required": false
+    },
+    {
+        "id": "#origins-plus-plus:aether_petrified_heart_mobs",
+        "required": false
+    },
+    {
+        "id": "#origins-plus-plus:creeperoverhaul_petrified_heart_mobs",
+        "required": false
+    },
+    {
+        "id": "#origins-plus-plus:darkwaters_petrified_heart_mobs",
+        "required": false
+    },
+    {
+        "id": "#origins-plus-plus:endermanoverhaul_petrified_heart_mobs",
+        "required": false
+    },
+    {
+        "id": "#origins-plus-plus:enderzoology_petrified_heart_mobs",
+        "required": false
+    },
+    {
+        "id": "#origins-plus-plus:frycmobvariants_petrified_heart_mobs",
+        "required": false
+    },
+    {
+        "id": "#origins-plus-plus:minecraft_petrified_heart_mobs",
+        "required": false
+    },
+    {
+        "id": "#origins-plus-plus:mutantmonsters_petrified_heart_mobs",
+        "required": false
+    },
+    {
+        "id": "#origins-plus-plus:mutantszombies_petrified_heart_mobs",
+        "required": false
+    },
+    {
+        "id": "#origins-plus-plus:soulsweapons_petrified_heart_mobs",
+        "required": false
+    },
+    {
+        "id": "#origins-plus-plus:species_petrified_heart_mobs",
+        "required": false
+    },
+    {
+        "id": "#origins-plus-plus:takesapillage_petrified_heart_mobs",
+        "required": false
+    },
+    {
+        "id": "#origins-plus-plus:variantsandventures_petrified_heart_mobs",
+        "required": false
+    },
+    {
+        "id": "#origins-plus-plus:wandering_orc_petrified_heart_mobs",
+        "required": false
+    },
+    {
+        "id": "#origins-plus-plus:cataclysm_petrified_heart_mobs",
+        "required": false
+    },
+    {
+        "id": "#origins-plus-plus:friendsandfoes_petrified_heart_mobs",
+        "required": false
+    },
+    {
+        "id": "#origins-plus-plus:rottencreatures_petrified_heart_mobs",
+        "required": false
+    }
+  ]
+}

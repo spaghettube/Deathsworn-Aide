@@ -1,0 +1,2 @@
+execute if entity @s[type=friendsandfoes:iceologer] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Iceologer"
+execute if entity @s[type=friendsandfoes:wildfire] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Wildfire"

@@ -1,0 +1,4 @@
+execute if entity @s[type=mutantszombies:blister_zombie] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Blister zombie"
+execute if entity @s[type=mutantszombies:crawler] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Crawler"
+execute if entity @s[type=mutantszombies:spitter] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Spitter"
+execute if entity @s[type=mutantszombies:zombie_brute] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Zombie brute"

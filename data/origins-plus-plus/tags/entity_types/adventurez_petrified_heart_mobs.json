@@ -1,0 +1,30 @@
+{"values":[
+    {
+        "id": "adventurez:amethyst_golem",
+        "required": false
+    },
+    {
+        "id": "adventurez:blaze_guardian",
+        "required": false
+    },
+    {
+        "id": "adventurez:enderwarthog",
+        "required": false
+    },
+    {
+        "id": "adventurez:piglin_beast",
+        "required": false
+    },
+    {
+        "id": "adventurez:shaman",
+        "required": false
+    },
+    {
+        "id": "adventurez:skeleton_vanguard",
+        "required": false
+    },
+    {
+        "id": "adventurez:soul_reaper",
+        "required": false
+    }
+]}
