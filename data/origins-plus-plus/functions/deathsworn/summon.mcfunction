@@ -161,20 +161,24 @@ execute if entity @s[nbt={SelectedItem:{tag:{mob:"The Prowler"}}}] run function 
 execute if entity @s[nbt={SelectedItem:{tag:{mob:"Koboleton"}}}] run function origins-plus-plus:deathsworn/cataclysm/summon
 execute if entity @s[nbt={SelectedItem:{tag:{mob:"Draugr"}}}] run function origins-plus-plus:deathsworn/cataclysm/summon
 
-execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] store result score @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] Minion_Armor_OG run data get entity @s SelectedItem.tag.Armor
-execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] store result score @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] Minion_Attack_Damage_OG run data get entity @s SelectedItem.tag.AD
-execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] store result score @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] Minion_Health_OG run data get entity @s SelectedItem.tag.Health
-execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] store result score @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] Minion_KBres_OG run data get entity @s SelectedItem.tag.KBres
+data modify entity @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] ArmorItems set from entity @s SelectedItem.tag.ArmorSet
+data modify entity @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] HandItems set from entity @s SelectedItem.tag.HandItems
 
-execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] Attributes[{Name:"minecraft:generic.knockback_resistance"}].Base set from entity @s SelectedItem.tag.KBres
-execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] Attributes[{Name:"minecraft:generic.max_health"}].Base set from entity @s SelectedItem.tag.Health
-execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] Health set from entity @s SelectedItem.tag.Health
-execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] Attributes[{Name:"minecraft:generic.armor"}].Base set from entity @s SelectedItem.tag.Armor
-execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] Attributes[{Name:"minecraft:generic.attack_damage"}].Base set from entity @s SelectedItem.tag.AD
-execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] Size set from entity @s SelectedItem.tag.Size
-execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] IsImmuneToZombification set value 1
-execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] CanPickUpLoot set value 1b
-execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] DeathLootTable set value "minecraft:empty"
+execute store result score @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] Minion_Armor run data get entity @s SelectedItem.tag.Armor
+execute store result score @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] Minion_Attack_Damage run data get entity @s SelectedItem.tag.AD
+execute store result score @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] Minion_Health run data get entity @s SelectedItem.tag.Health
+execute store result score @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] Minion_KBres run data get entity @s SelectedItem.tag.KBres
+
+data modify entity @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] Attributes[{Name:"minecraft:generic.knockback_resistance"}].Base set from entity @s SelectedItem.tag.KBres
+data modify entity @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] Attributes[{Name:"minecraft:generic.max_health"}].Base set from entity @s SelectedItem.tag.Health
+data modify entity @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] Health set from entity @s SelectedItem.tag.Health
+data modify entity @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] Attributes[{Name:"minecraft:generic.armor"}].Base set from entity @s SelectedItem.tag.Armor
+data modify entity @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] Attributes[{Name:"minecraft:generic.attack_damage"}].Base set from entity @s SelectedItem.tag.AD
+data modify entity @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] Size set from entity @s SelectedItem.tag.Size
+data modify entity @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] IsImmuneToZombification set value 1
+data modify entity @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] CanPickUpLoot set value 1b
+data modify entity @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] DeathLootTable set value "minecraft:empty"
+tag @s add Aided_Deathsworn_Minion
 execute run power grant @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] origins-plus-plus:deathsworn/minions/kill
 
 execute if entity @s[nbt={SelectedItem:{tag:{mob:"minecraft:spider"}}}] run advancement grant @s only origins-plus-plus:deathsworn/spider

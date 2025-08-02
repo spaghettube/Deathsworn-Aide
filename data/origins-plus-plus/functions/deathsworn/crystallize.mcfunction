@@ -25,12 +25,14 @@ execute if entity @s[type=#origins-plus-plus:friendsandfoes_petrified_heart_mobs
 execute if entity @s[type=#origins-plus-plus:rottencreatures_petrified_heart_mobs] run function origins-plus-plus:deathsworn/rottencreatures/crystallize
 execute as @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] at @s unless data entity @s Item.tag.mob run data modify entity @s Item.tag.mob set value "Zombie"
 
-execute store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.KBres float 1 run scoreboard players get @s Minion_KBres
-execute if entity @s[tag=Deathsworn_Minion] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.KBres float 1 run scoreboard players get @s Minion_KBres_OG
-execute store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Health float 1 run scoreboard players get @s Minion_Health
-execute if entity @s[tag=Deathsworn_Minion] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Health float 1 run scoreboard players get @s Minion_Health_OG
-execute store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Armor float 1 run scoreboard players get @s Minion_Armor
-execute if entity @s[tag=Deathsworn_Minion] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Armor float 1 run scoreboard players get @s Minion_Armor_OG
-execute store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.AD float 1 run scoreboard players get @s Minion_Attack_Damage
-execute if entity @s[tag=Deathsworn_Minion] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.AD float 1 run scoreboard players get @s Minion_Attack_Damage_OG
+execute store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.KBres float 1 run attribute @s minecraft:generic.knockback_resistance get
+execute if entity @s[tag=Deathsworn_Minion] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.KBres float 0.8 run scoreboard players get @s Minion_KBres
+execute store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Health float 1 run attribute @s minecraft:generic.max_health get
+execute if entity @s[tag=Deathsworn_Minion] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Health float 0.8 run scoreboard players get @s Minion_Health
+execute store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Armor float 1 run attribute @s minecraft:generic.armor get
+execute if entity @s[tag=Deathsworn_Minion] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Armor float 0.8 run scoreboard players get @s Minion_Armor
+execute store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.AD float 1 run attribute @s minecraft:generic.attack_damage get
+execute if entity @s[tag=Deathsworn_Minion] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.AD float 0.8 run scoreboard players get @s Minion_Attack_Damage
 execute store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Size float 1 run data get entity @s Size 1
+data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.ArmorSet set from entity @s ArmorItems
+data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.HandItems set from entity @s HandItems
