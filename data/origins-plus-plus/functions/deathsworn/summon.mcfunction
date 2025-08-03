@@ -161,13 +161,13 @@ execute if entity @s[nbt={SelectedItem:{tag:{mob:"The Prowler"}}}] run function 
 execute if entity @s[nbt={SelectedItem:{tag:{mob:"Koboleton"}}}] run function origins-plus-plus:deathsworn/cataclysm/summon
 execute if entity @s[nbt={SelectedItem:{tag:{mob:"Draugr"}}}] run function origins-plus-plus:deathsworn/cataclysm/summon
 
-data modify entity @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] ArmorItems set from entity @s SelectedItem.tag.ArmorSet
-data modify entity @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] HandItems set from entity @s SelectedItem.tag.HandItems
-
 execute store result score @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] Minion_Armor run data get entity @s SelectedItem.tag.Armor
 execute store result score @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] Minion_Attack_Damage run data get entity @s SelectedItem.tag.AD
 execute store result score @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] Minion_Health run data get entity @s SelectedItem.tag.Health
 execute store result score @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] Minion_KBres run data get entity @s SelectedItem.tag.KBres
+
+data modify entity @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] ArmorItems set from entity @s SelectedItem.tag.ArmorSet
+data modify entity @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] HandItems set from entity @s SelectedItem.tag.HandItems
 
 data modify entity @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] Attributes[{Name:"minecraft:generic.knockback_resistance"}].Base set from entity @s SelectedItem.tag.KBres
 data modify entity @e[tag=!Aided_Deathsworn_Minion,tag=Deathsworn_Minion,sort=nearest,limit=1] Attributes[{Name:"minecraft:generic.max_health"}].Base set from entity @s SelectedItem.tag.Health
